@@ -50,3 +50,9 @@ Penggunaan CSS bersifat wajib, bukan opsional, untuk memenuhi standar tampilan a
 * Nama Tabel: data_barang
 
 Struktur Tabel data_barang:
+| Kolom | Tipe Data    | Keterangan                  |
+| ----- | ------------ | --------------------------- |
+| id    | INT          | Primary Key, Auto Increment |
+| nama  | VARCHAR(100) | Nama barang                 |
+| harga | INT          | Harga barang                |
+
